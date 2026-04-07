@@ -48,6 +48,252 @@
   {
     "id": 1,
     "title": "Wyszukiwanie źródeł",
-    "prompts": []
+    "prompts": [
+  { title: 'instrukcja 10: tworzenie słów kluczowych do wyszukiwania',  content: 'Pełnij rolę eksperta od wyszukiwania literatury naukowej. Pomóż mi stworzyć praktyczne i trafne słowa kluczowe do wyszukiwania publikacji naukowych na temat: [temat].
+
+Uwzględnij:
+– dziedzinę / kierunek: [dziedzina]
+– cel wyszukiwania: [praca zaliczeniowa / licencjat / magisterka / przegląd literatury / projekt]
+– język publikacji: [polski / angielski / oba]
+– bazę lub bazy: [Google Scholar / PubMed / Scopus / Web of Science / JSTOR / EBSCO / inne]
+– zakres czasu: [np. ostatnie 5 lat / bez ograniczeń]
+– co ma być uwzględnione: [zakres]
+– co ma być wykluczone: [zakres]
+
+Twoim zadaniem jest:
+1. wyodrębnić 3–5 najważniejszych pojęć badawczych z tematu,
+2. dla każdego pojęcia podać najlepsze słowa kluczowe po polsku i/lub angielsku,
+3. dodać synonimy, warianty terminologiczne i terminy pokrewne,
+4. odrzucić hasła zbyt szerokie, nieprecyzyjne lub mylące,
+5. zbudować gotowe zapytania Boolean do wyszukiwania w bazach naukowych.
+
+Zasady:
+– zależy mi na PRAKTYCZNYM wyniku, gotowym do użycia
+– nie pisz ogólników
+– nie tłumacz teorii wyszukiwania
+– wybieraj tylko hasła, które realnie zwiększą trafność wyników
+– jeśli temat jest zbyt szeroki, najpierw go zawęź i pokaż najlepszy kierunek
+– jeśli istnieją różne warianty nazewnictwa w literaturze, uwzględnij je
+– jeśli dane hasło jest ryzykowne, oznacz je krótko jako: [zbyt szerokie], [wieloznaczne], [mało trafne]
+
+Format odpowiedzi:
+1. Główne pojęcia badawcze
+– [pojęcie 1]
+– [pojęcie 2]
+– [pojęcie 3]
+
+2. Najlepsze słowa kluczowe
+Tabela:
+| Pojęcie | Słowa kluczowe główne | Synonimy / warianty | Odrzucić |
+
+3. Gotowe zapytania do bazy
+– wersja szeroka
+– wersja precyzyjna
+– wersja optymalna
+
+4. Słowa do wykluczenia
+– lista terminów, które mogą psuć wyniki
+
+5. Rekomendacja końcowa
+– wskaż, od którego zapytania najlepiej zacząć i dlaczego
+
+instrukcja  11: tworzenie słów kluczowych do wyszukiwania (krótka wersja)
+Pomóż mi stworzyć najlepsze słowa kluczowe do wyszukiwania publikacji naukowych na temat: [temat].
+
+Kontekst:
+– dziedzina: [dziedzina]
+– cel: [cel]
+– język: [PL / EN / oba]
+– baza: [nazwa bazy]
+– zakres czasu: [zakres]
+– uwzględnij: [zakres]
+– wyklucz: [zakres]
+
+Wynik ma być praktyczny i gotowy do użycia. 
+Nie wyjaśniaj teorii. 
+Nie podawaj przypadkowych haseł. 
+Wybierz tylko terminy, które realnie poprawią wyszukiwanie.
+
+Przygotuj:
+1) 3–5 głównych pojęć badawczych,
+2) najlepsze słowa kluczowe i synonimy,
+3) hasła zbyt szerokie lub mylące, których nie warto używać,
+4) 3 gotowe zapytania Boolean:
+– szerokie,
+– precyzyjne,
+– najlepsze startowe,
+5) krótką rekomendację, od którego zapytania zacząć.
+
+Pokaż odpowiedź w przejrzystej tabeli i gotowych liniach do wklejenia do wyszukiwarki.
+' },
+  { title: 'instrukcja 12: wskazanie propozycji źródeł',  content: 'Pełnij rolę eksperta od researchu akademickiego i doboru źródeł naukowych do prac pisemnych. 
+Pomóż mi wskazać REALNE publikacje naukowe przydatne do pracy na temat: [temat pracy].
+
+Kontekst:
+– rodzaj pracy: [esej / praca zaliczeniowa / licencjat / magisterka / artykuł / projekt]
+– kierunek / dziedzina: [dziedzina]
+– cel rozdziału lub pracy: [cel]
+– pytanie badawcze / problem: [pytanie badawcze]
+– język źródeł: [polski / angielski / oba]
+– preferowane lata publikacji: [zakres]
+– preferowany typ źródeł: [artykuły naukowe / książki naukowe / rozdziały / przeglądy systematyczne / raporty]
+– co ma być koniecznie uwzględnione: [zakres]
+– co ma być wykluczone: [zakres]
+
+Twoje zadanie:
+1. wskaż najbardziej trafne publikacje naukowe do mojego tematu,
+2. wybieraj tylko źródła, które realnie mogą zostać wykorzystane w pracy,
+3. przy każdej publikacji podaj pełne dane identyfikacyjne, jeśli są dostępne,
+4. krótko opisz, czego dotyczy publikacja,
+5. wyjaśnij, dlaczego nadaje się do mojej pracy,
+6. wskaż, do której części pracy najbardziej pasuje,
+7. odrzuć publikacje zbyt ogólne, przestarzałe albo słabo związane z tematem.
+
+Bardzo ważne zasady:
+– nie wymyślaj publikacji
+– podawaj tylko takie źródła, które można jednoznacznie zidentyfikować
+– jeśli nie masz pewności co do danych, oznacz: [DO WERYFIKACJI]
+– dla książek podawaj ISBN, jeśli dostępny
+– dla artykułów podawaj DOI, jeśli dostępny
+– dla czasopism podawaj ISSN tylko jeśli ma realną wartość użytkową
+– nie pisz ogólników typu „może się przydać”
+– każda rekomendacja ma mieć konkretne uzasadnienie pod moją pracę
+– zależy mi na praktycznym wyniku, gotowym do użycia przy pisaniu
+
+Wynik przedstaw w tabeli:
+
+| Autor / autorzy | Tytuł | Rok | Typ źródła | DOI / ISBN / ISSN | O czym jest publikacja | Dlaczego pasuje do mojej pracy | Do jakiej części pracy pasuje | Priorytet |
+|---|---|---|---|---|---|---|---|---|
+
+Dodatkowe wymagania:
+– wybierz [np. 8 / 10 / 12] najlepszych publikacji
+– oznacz priorytet jako: [kluczowe] / [bardzo przydatne] / [uzupełniające]
+– przy każdej publikacji napisz opis maksymalnie 3–4 zdania
+– jeśli temat jest zbyt szeroki, najpierw go zawęź i dobierz publikacje do najlepszego kierunku
+– na końcu wskaż:
+  1) od których 3 publikacji najlepiej zacząć,
+  2) które źródła nadają się najbardziej do części teoretycznej,
+  3) które źródła nadają się najbardziej do analizy / argumentacji / przeglądu badań
+
+Jeśli zauważysz, że temat pracy jest nieprecyzyjny, najpierw zaproponuj 2–3 lepsze kierunki zawężenia, a dopiero potem dobierz publikacje.
+' },
+  { title: 'instrukcja 13: pomoc w doborze literatury',  content: 'Pełnij rolę eksperta od researchu akademickiego, doboru literatury naukowej i wspierania pisania prac akademickich. 
+Pomóż mi dobrać REALNE publikacje naukowe do pracy na temat: [temat pracy].
+
+Kontekst:
+– rodzaj pracy: [esej / praca zaliczeniowa / licencjat / magisterka / artykuł / projekt]
+– kierunek / dziedzina: [dziedzina]
+– temat rozdziału lub podrozdziału: [fragment pracy, do którego szukam źródeł]
+– cel tej części pracy: [co chcę w niej pokazać / udowodnić / omówić]
+– pytanie badawcze / problem: [pytanie badawcze]
+– język źródeł: [polski / angielski / oba]
+– preferowany zakres lat: [np. ostatnie 5 lat / 2018–2024 / bez ograniczeń]
+– preferowany typ źródeł: [artykuły naukowe / monografie / rozdziały / przeglądy systematyczne / raporty]
+– uwzględnij koniecznie: [zakres]
+– wyklucz: [zakres]
+
+Twoim zadaniem jest wskazać tylko takie publikacje, które realnie nadają się do wykorzystania w tej pracy.
+
+Zasady:
+– nie wymyślaj publikacji
+– podawaj tylko źródła, które można jednoznacznie zidentyfikować
+– dla artykułów podawaj DOI, jeśli dostępny
+– dla książek podawaj ISBN, jeśli dostępny
+– ISSN podawaj tylko wtedy, gdy realnie pomaga zidentyfikować źródło
+– jeśli nie masz pewności co do danych bibliograficznych, oznacz: [DO WERYFIKACJI]
+– nie pisz ogólników typu „może się przydać”
+– każda publikacja ma mieć konkretne uzasadnienie pod moją pracę
+– wybieraj źródła trafne, akademickie i używalne, a nie tylko luźno związane z tematem
+– jeśli temat jest zbyt szeroki, najpierw go zawęź i dopiero potem dobierz źródła
+
+Dla każdej publikacji podaj:
+1. autor / autorzy
+2. pełny tytuł
+3. rok
+4. typ źródła
+5. DOI / ISBN / ISSN
+6. krótko: o czym jest publikacja
+7. główna teza / główny wkład publikacji
+8. dlaczego pasuje do mojej pracy
+9. do jakiej części pracy najlepiej ją wykorzystać
+10. jak dokładnie można ją wykorzystać w tekście:
+   – jako definicję
+   – jako tło teoretyczne
+   – jako przegląd badań
+   – jako argument
+   – jako kontrargument
+   – jako przykład / case
+   – jako podparcie wniosku
+11. czego raczej z niej nie brać, jeśli ma ograniczoną przydatność
+12. priorytet:
+   [kluczowe] / [bardzo przydatne] / [uzupełniające]
+
+Format odpowiedzi:
+| Autor / autorzy | Tytuł | Rok | Typ | DOI / ISBN / ISSN | O czym jest | Główna teza / wkład | Dlaczego pasuje do pracy | Gdzie użyć w pracy | Jak wykorzystać w akapicie / rozdziale | Ograniczenia | Priorytet |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+
+Dodatkowo po tabeli przygotuj sekcję:
+
+1. 3 najlepsze źródła na start
+Dla każdego:
+– dlaczego warto zacząć właśnie od niego
+– do którego akapitu / fragmentu pracy pasuje najlepiej
+
+2. Proponowany podział źródeł w pracy
+Podziel wskazane publikacje na:
+– źródła do części teoretycznej
+– źródła do przeglądu badań
+– źródła do argumentacji / analizy
+– źródła uzupełniające
+
+3. Mini-plan użycia źródeł
+Pokaż w formacie:
+– Źródło: [tytuł]
+– Teza publikacji: [1 zdanie]
+– Jak wykorzystać w pracy: [1–2 zdania]
+– Najlepsze miejsce użycia: [np. wstęp teoretyczny / definicje / analiza / dyskusja]
+
+Wybierz [8 / 10 / 12] najlepszych publikacji.
+Jeśli temat lub cel pracy jest nieprecyzyjny, najpierw zaproponuj 2–3 sensowne zawężenia tematu i dopiero potem dobierz źródła.
+' },
+  { title: 'instrukcja 14: ocena przydatności źródeł',  content: 'Pełnij rolę eksperta od pracy z literaturą naukową i oceniania przydatności źródeł do prac akademickich.
+
+Oceń przydatność poniższego materiału naukowego w kontekście mojej pracy.
+
+Kontekst pracy:
+– temat pracy: [temat]
+– plan pracy / układ rozdziałów: [plan]
+– rozdział / podrozdział: [nazwa]
+– fragment, który piszę: [konkretny fragment]
+– cel tego fragmentu: [co chcę w nim pokazać / udowodnić / omówić]
+– teza / problem badawczy: [teza lub pytanie]
+
+Materiał do oceny:
+[tytuł / link / PDF / opis / notatki / fragment]
+
+Oceń ten materiał praktycznie, pod kątem pisania pracy.
+
+Wskaż:
+1) czy ten materiał nadaje się do tego fragmentu pracy,
+2) co dokładnie warto z niego wykorzystać,
+3) do czego się nadaje najlepiej: definicja / tło teoretyczne / przegląd badań / argument / kontrargument / przykład / wniosek,
+4) czego lepiej z niego nie brać,
+5) czy jest kluczowy, pomocniczy czy zbędny,
+6) w którym miejscu rozdziału najlepiej go użyć,
+7) krótkie uzasadnienie decyzji.
+
+Nie streszczaj całej publikacji.
+Nie pisz ogólników.
+Oceń źródło pod kątem realnej użyteczności w tekście.
+
+Format odpowiedzi:
+– Ocena: [bardzo przydatny / częściowo przydatny / mało przydatny / nieprzydatny]
+– Do czego wykorzystać:
+– Najmocniejsze elementy:
+– Ograniczenia:
+– Najlepsze miejsce użycia w pracy:
+– Werdykt końcowy: [zostaw / użyj pomocniczo / pomiń]
+' }
+]
   }
 ]
