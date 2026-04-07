@@ -60,8 +60,10 @@
       {
         "title": "instrukcja 14: ocena przydatności źródeł",
         "content": "Pełnij rolę eksperta od pracy z literaturą naukową i oceniania przydatności źródeł do prac akademickich.\n\nOceń przydatność poniższego materiału naukowego w kontekście mojej pracy.\n\nKontekst pracy:\n– temat pracy: [temat]\n– plan pracy / układ rozdziałów: [plan]\n– rozdział / podrozdział: [nazwa]\n– fragment, który piszę: [konkretny fragment]\n– cel tego fragmentu: [co chcę w nim pokazać / udowodnić / omówić]\n– teza / problem badawczy: [teza lub pytanie]\n\nMateriał do oceny:\n[tytuł / link / PDF / opis / notatki / fragment]\n\nOceń ten materiał praktycznie, pod kątem pisania pracy.\n\nWskaż:\n1) czy ten materiał nadaje się do tego fragmentu pracy,\n2) co dokładnie warto z niego wykorzystać,\n3) do czego się nadaje najlepiej: definicja / tło teoretyczne / przegląd badań / argument / kontrargument / przykład / wniosek,\n4) czego lepiej z niego nie brać,\n5) czy jest kluczowy, pomocniczy czy zbędny,\n6) w którym miejscu rozdziału najlepiej go użyć,\n7) krótkie uzasadnienie decyzji.\n\nNie streszczaj całej publikacji.\nNie pisz ogólników.\nOceń źródło pod kątem realnej użyteczności w tekście.\n\nFormat odpowiedzi:\n– Ocena: [bardzo przydatny / częściowo przydatny / mało przydatny / nieprzydatny]\n– Do czego wykorzystać:\n– Najmocniejsze elementy:\n– Ograniczenia:\n– Najlepsze miejsce użycia w pracy:\n– Werdykt końcowy: [zostaw / użyj pomocniczo / pomiń]\n"
-      },
-      {
+      }
+    ]
+  },
+  {
   "id": 2,
   "title": "Analiza źródeł",
   "prompts": [
@@ -91,6 +93,4 @@
     }
   ]
 }
-    ]
-  }
 ]
