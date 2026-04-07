@@ -47,7 +47,7 @@
       },
       {
         "title": "instrukcja 11: tworzenie słów kluczowych do wyszukiwania (krótka wersja)",
-        "content": "test"
+        "content": "Pomóż mi stworzyć najlepsze słowa kluczowe do wyszukiwania publikacji naukowych na temat: [temat].\n\nKontekst:\n– dziedzina: [dziedzina]\n– cel: [cel]\n– język: [PL / EN / oba]\n– baza: [nazwa bazy]\n– zakres czasu: [zakres]\n– uwzględnij: [zakres]\n– wyklucz: [zakres]\n\nWynik ma być praktyczny i gotowy do użycia. \nNie wyjaśniaj teorii. \nNie podawaj przypadkowych haseł. \nWybierz tylko terminy, które realnie poprawią wyszukiwanie.\n\nPrzygotuj:\n1) 3–5 głównych pojęć badawczych,\n2) najlepsze słowa kluczowe i synonimy,\n3) hasła zbyt szerokie lub mylące, których nie warto używać,\n4) 3 gotowe zapytania Boolean:\n– szerokie,\n– precyzyjne,\n– najlepsze startowe,\n5) krótką rekomendację, od którego zapytania zacząć.\n\nPokaż odpowiedź w przejrzystej tabeli i gotowych liniach do wklejenia do wyszukiwarki.\n"
       },
       {
         "title": "instrukcja 12: wskazanie propozycji źródeł",
